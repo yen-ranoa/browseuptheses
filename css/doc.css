@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Magistral C';
+    src: url('fonts/magistral_C.ttf');
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url('fonts/segoeuisl.ttf');
+}
+
+#wrap {
+	min-height: 100%;
+	font-family: 'Segoe UI Semilight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#wrap a:hover {
+	text-decoration: underline;
+}
+
+#brand small {
+	color: #C4B1B1;
+}
+
+#jumbotron {
+	display: block;
+	position: absolute;
+	padding: 100px;
+	z-index: 1000;
+	height: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #1D4250;
+	background-size: 100%;
+}
+
+header, footer {
+	background-color: #420E0E;
+	-webkit-box-shadow: 0 0 10px #420E0E;
+	-moz-box-shadow: 0 0 10px #420E0E;
+	box-shadow: 0 0 10px #420E0E;
+}
+
+#main {
+	position: relative;
+	display: block;
+	margin-top: 20px;
+	overflow: auto;
+	height: 100%;
+}
+
+#query-response, #jumbo-query-response {
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+	background-color: #fff;
+	top: 37px;
+	border: 1px solid #D8D8D8;
+}
+
+#query-response a, #jumbo-query-response a {
+	display: block;
+	padding: 4px 10px;
+	text-transform: none;
+	text-decoration: none;
+}
+
+#query-response a:hover, #jumbo-query-response a:hover {
+	background-color: #007095;
+	color: #C4B1B1;
+}
+
+#thesis_abstract {
+	-webkit-box-shadow: 0 0 10px #420E0E;
+	-moz-box-shadow: 0 0 10px #420E0E;
+	box-shadow: 0 0 10px #420E0E;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-family: 'Segoe UI Semilight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#results-count {
+	text-align: right;
+}
+
+article {
+	margin-top: 10px;
+	padding: 10px 20px 0 20px;
+	border: 1px solid #D8D8D8;
+}
+
+.title-bit {
+	font-size: 125%;
+	margin-bottom: 3px;
+}
+
+.abstract-bit {
+	font-size: 15px;
+	line-height: 90%;
+}
+
+.pagination {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+footer nav li {
+	display: inline-block;
+}
+
+footer ul a {
+	margin: 0 12px;
+}
+
+#thesis-info {
+	font-family: 'Segoe UI Semilight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+table {
+	width: 100%;
+}
+
+#browsed-theses a {
+	display: block;
+}
